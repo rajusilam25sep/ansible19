@@ -1,5 +1,5 @@
 ---
-- hosts: mywebservers
+- hosts: myredhatservers
   become: yes
   gather_facts: yes
   tasks:
