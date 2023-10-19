@@ -1,7 +1,6 @@
 ---
 - hosts: mywebserversS
   become: yes
-  gather_facts: yes
   tasks:
   - name: in this tasks , i wnat to install apache2 webservers on ubuntu
     apt:
